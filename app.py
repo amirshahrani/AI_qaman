@@ -10,20 +10,21 @@ def home():
     return "Welcome to the Route Finder API! Use the endpoint /<start>/<dest>?algorithm=UCS to find routes."
 
 # Create graph with 10 locations in Perak
-locations = ['V5', 'Block_A', 'Pocket_D', 'Cafe D', 'Admin Block', 'IRC']
+locations = ['V5', 'Block_A', 'Pocket_D', 'Cafe_D', 'Admin_Block', 'IRC', 'V3']
 
 G = nx.Graph()
 G.add_nodes_from(locations)
 
 # Add edges with approximate distances (in km)
 edges = [
-    ('V5', 'Block A', 8),
-    ('V5', 'IRC', 5),
-    ('IRC', 'Block A', 3),
-    ('IRC', 'Pocket D', 10),
-    ('Block A', 'Pocket D', 4),
-    ('Cafe D', 'IRC', 4),
-    ('Admin Block', 'Block A', 2)
+    ('V5', 'Block_A', 8),
+    ('V5', 'V3', 5),
+    ('V3', 'Pocket_D', 3),
+    ('IRC', 'Block_A', 3),
+    ('IRC', 'Pocket_D', 10),
+    ('Block_A', 'Pocket_D', 4),
+    ('Cafe_D', 'IRC', 4),
+    ('Admin_Block', 'Block_A', 2)
 ]
 
 G.add_weighted_edges_from(edges)
