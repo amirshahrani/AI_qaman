@@ -53,10 +53,12 @@ def ucs_path(graph, start, goal):
     return None
 
 
-@app.route("/<start>/<dest>", methods=['GET'])
-def get_route(start, dest):
+@app.route("/route", methods=['GET'])
+def get_route():
 
     algorithm = request.args.get('algorithm', 'UCS')
+    start = request.args.get('start')
+    dest = request.args.get('dest')
     
     if algorithm != 'UCS':
         return jsonify({"error": "Only UCS algorithm is supported."}), 400
