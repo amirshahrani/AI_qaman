@@ -74,7 +74,7 @@ def get_route():
     return jsonify({"start": start, "dest": dest, "algorithm": algorithm, "path": path})
     
 
-@app.route("/<start>/<dest>", methods=['GET'])
+@app.route("/route/<start>/<dest>", methods=['GET'])
 def get_route_two(start, dest):
 
     algorithm = request.args.get('algorithm', 'UCS')
