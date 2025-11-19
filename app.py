@@ -73,6 +73,24 @@ def get_route():
         
     return jsonify({"start": start, "dest": dest, "algorithm": algorithm, "path": path})
     
+
+@app.route("/<start>/<dest>", methods=['GET'])
+def get_route_two(start, dest):
+
+    algorithm = request.args.get('algorithm', 'UCS')
+    
+    if algorithm != 'UCS':
+        return jsonify({"error": "Only UCS algorithm is supported."}), 400
+    
+    path = ucs_path(G, start, dest)
+    
+    # Display path
+    if path:
+        print(f"Path from {start} to {dest} using {algorithm}: {' -> '.join(path)}")
+    else:
+        print(f"No path found from {start} to {dest} using {algorithm}.")
+        
+    return jsonify({"start": start, "dest": dest, "algorithm": algorithm, "path": path})
     
 if __name__ == '__main__':
     app.run(debug=True)
