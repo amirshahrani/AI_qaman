@@ -53,7 +53,7 @@ def ucs_path(graph, start, goal):
     return None
 
 
-@app.route("/route", methods=['GET'])
+@app.route("/", methods=['GET'])
 def get_route():
 
     algorithm = request.args.get('algorithm', 'UCS')
@@ -74,7 +74,7 @@ def get_route():
     return jsonify({"start": start, "dest": dest, "algorithm": algorithm, "path": path})
     
 
-@app.route("/route/<start>/<dest>", methods=['GET'])
+@app.route("/<start>/<dest>", methods=['GET'])
 def get_route_two(start, dest):
 
     algorithm = request.args.get('algorithm', 'UCS')
