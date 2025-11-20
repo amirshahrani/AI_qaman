@@ -66,7 +66,7 @@ def a_star(graph,heuristic, start, goal):
             print(f"Total time : {cost} minutes")
             print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
             print(f"path: {path}")
-            return path,estimated_time
+            return path,estimated_time,added_time
 
         if node not in visited:
             visited.add(node)
@@ -111,7 +111,7 @@ def get_route():
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    path,estimated_time= a_star(graph, heuristic, start, dest)
+    path,estimated_time,added_time = a_star(graph, heuristic, start, dest)
     
     # Display path
     if path:
@@ -120,26 +120,26 @@ def get_route():
     else:
         print(f"No path found from {start} to {dest}.")
         
-    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path})
+    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time)})
     
 
 @app.route("/<start>/<dest>", methods=['GET'])
 def get_route_two(start, dest):
 
-    algorithm = request.args.get('algorithm', 'UCS')
+    start = request.args.get('start')
+    dest = request.args.get('dest')
     
-    if algorithm != 'UCS':
-        return jsonify({"error": "Only UCS algorithm is supported."}), 400
-    
-    path = ucs_path(G, start, dest)
+    path,estimated_time,added_time = a_star(graph, heuristic, start, dest)
     
     # Display path
     if path:
-        print(f"Path from {start} to {dest} using {algorithm}: {' -> '.join(path)}")
+        print(f"Path from {start} to {dest}: {' -> '.join(path)}")
+        print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime('%H:%M')}")
     else:
-        print(f"No path found from {start} to {dest} using {algorithm}.")
+        print(f"No path found from {start} to {dest}.")
         
-    return jsonify({"start": start, "dest": dest, "algorithm": algorithm, "path": path})
+    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time)})
+    
     
 if __name__ == '__main__':
     app.run(debug=True)
