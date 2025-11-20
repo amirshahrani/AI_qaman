@@ -15,7 +15,7 @@ locations = ['V5', 'V3', 'V4', 'Pocket_D', 'Pocket_C', 'Block1', 'Block2','IRC',
 
 
 # Add edges with approximate distances (in km)
-# Weight(time) = Walking Distance / Average Student Speed (4 km/h)
+# Weight(time (min)) = Walking Distance / Average Student Speed (4 km/h)
 edges = [
     ('V5', 'Block_I', 15),
     ('V5', 'V3', 7.5),
@@ -53,20 +53,22 @@ def a_star(graph,heuristic, start, goal):
 
     time_now = datetime.now()
     print(f"Current Time = {time_now.strftime('%H:%M')} ")
-        
+       
 
     while pq:
         est_cost, cost, path = heapq.heappop(pq)
         node = path[-1]
 
         if node == goal:
+            distance = (cost+buffer_time)*60  # convert buffer time to seconds
             added_time = timedelta(minutes=cost+buffer_time) 
             print(added_time)
             estimated_time = time_now + added_time
             print(f"Total time : {cost} minutes")
             print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
+            print(f"Distance: {distance} meters")
             print(f"path: {path}")
-            return path,estimated_time,added_time
+            return path,estimated_time,added_time,distance
 
         if node not in visited:
             visited.add(node)
@@ -111,7 +113,7 @@ def get_route():
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    path,estimated_time,added_time = a_star(graph, heuristic, start, dest)
+    path,estimated_time,added_time,distance = a_star(graph, heuristic, start, dest)
     
     # Display path
     if path:
@@ -120,7 +122,7 @@ def get_route():
     else:
         print(f"No path found from {start} to {dest}.")
         
-    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time)})
+    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
     
 
 @app.route("/<start>/<dest>", methods=['GET'])
@@ -129,7 +131,7 @@ def get_route_two(start, dest):
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    path,estimated_time,added_time = a_star(graph, heuristic, start, dest)
+    path,estimated_time,added_time,distance = a_star(graph, heuristic, start, dest)
     
     # Display path
     if path:
@@ -138,7 +140,7 @@ def get_route_two(start, dest):
     else:
         print(f"No path found from {start} to {dest}.")
         
-    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time)})
+    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
     
     
 if __name__ == '__main__':
