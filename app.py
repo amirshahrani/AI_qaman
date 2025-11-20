@@ -1,8 +1,7 @@
 import networkx as nx
 import heapq
 from flask import Flask, request, jsonify
-
-
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
@@ -49,24 +48,34 @@ buffer_time = 5  # in minutes
 
 
 def a_star(graph,heuristic, start, goal):
-  pq = [(heuristic[start], 0, [start])]
-  visited = set()
+    pq = [(heuristic[start], 0, [start])]
+    visited = set()
 
-  while pq:
-    est_cost, cost, path = heapq.heappop(pq)
-    node = path[-1]
+    time_now = datetime.now()
+    print(f"Current Time = {time_now.strftime('%H:%M')} ")
+        
+
+    while pq:
+        est_cost, cost, path = heapq.heappop(pq)
+        node = path[-1]
 
     if node == goal:
-      return path,cost
+        added_time = timedelta(minutes=cost+buffer_time) 
+        print(added_time)
+        estimated_time = time_now + added_time
+        print(f"Total time : {cost} minutes")
+        print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
+        print(f"path: {path}")
+        return path,cost
 
     if node not in visited:
-      visited.add(node)
-      for neighbor, weight in graph[node]:
-        new_cost = cost + weight
-        total_cost = new_cost + heuristic[neighbor]
-        heapq.heappush(pq, (total_cost, new_cost, path + [neighbor]))
-
-  return None
+        visited.add(node)
+        for neighbor, weight in graph[node]:
+            new_cost = cost + weight
+            total_cost = new_cost + heuristic[neighbor]
+            heapq.heappush(pq, (total_cost, new_cost, path + [neighbor]))
+            
+    return None
 
 G.add_weighted_edges_from(edges)
 
