@@ -12,8 +12,7 @@ def home():
 # Create graph with 10 locations in UTP
 locations = ['V5', 'V3', 'V4', 'Pocket_D', 'Pocket_C', 'Block1', 'Block2','IRC','Block_K', 'Block_I']
 
-G = nx.Graph()
-G.add_nodes_from(locations)
+
 
 # Add edges with approximate distances (in km)
 # Weight(time) = Walking Distance / Average Student Speed (4 km/h)
@@ -34,10 +33,11 @@ graph = {
     'V5': [('Block_I', 2), ('V3', 1.25), ('Pocket_C', 2)],
     'V3': [('V5', 1.25), ('Pocket_D', 0.75)],
     'Pocket_D': [('V3', 0.75), ('IRC', 2.5), ('Block_K', 1), ('Pocket_C', 1), ('Block1', 1)],
-    'IRC': [('Block_K', 0.75), ('Pocket_D', 2.5), ('Block_K', 0.5)],
+    'IRC': [('Block_K', 0.75), ('Pocket_D', 2.5)],
     'Block_K': [('IRC', 0.75), ('Pocket_D', 1)],
     'Pocket_C': [('Pocket_D', 1), ('V5', 2)],
     'Block_I': [('V5', 2)],
+    'Block1': [('Pocket_D', 1)],
 }
 heuristic = {
     'V5': 3.0, 'V3': 1.75, 'V4': 4.0, 'Pocket_D': 1.0, 'Pocket_C': 2.0, 
@@ -59,33 +59,35 @@ def a_star(graph,heuristic, start, goal):
         est_cost, cost, path = heapq.heappop(pq)
         node = path[-1]
 
-    if node == goal:
-        added_time = timedelta(minutes=cost+buffer_time) 
-        print(added_time)
-        estimated_time = time_now + added_time
-        print(f"Total time : {cost} minutes")
-        print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
-        print(f"path: {path}")
-        return path,cost
+        if node == goal:
+            added_time = timedelta(minutes=cost+buffer_time) 
+            print(added_time)
+            estimated_time = time_now + added_time
+            print(f"Total time : {cost} minutes")
+            print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
+            print(f"path: {path}")
+            return path,estimated_time
 
-    if node not in visited:
-        visited.add(node)
-        for neighbor, weight in graph[node]:
-            new_cost = cost + weight
-            total_cost = new_cost + heuristic[neighbor]
-            heapq.heappush(pq, (total_cost, new_cost, path + [neighbor]))
+        if node not in visited:
+            visited.add(node)
+            for neighbor, weight in graph[node]:
+                new_cost = cost + weight
+                total_cost = new_cost + heuristic[neighbor]
+                heapq.heappush(pq, (total_cost, new_cost, path + [neighbor]))
             
     return None
 
-G.add_weighted_edges_from(edges)
+# G = nx.Graph()
+# G.add_nodes_from(locations)
+# G.add_weighted_edges_from(edges)
 
-print("Graph created with nodes:", list(G.nodes()))
-print("Edges:", list(G.edges(data=True)))
+# print("Graph created with nodes:", list(G.nodes()))
+# print("Edges:", list(G.edges(data=True)))
 
-G.add_weighted_edges_from(edges)
+# G.add_weighted_edges_from(edges)
 
-print("Graph created with nodes:", list(G.nodes()))
-print("Edges:", list(G.edges(data=True)))
+# print("Graph created with nodes:", list(G.nodes()))
+# print("Edges:", list(G.edges(data=True)))
 
 def ucs_path(graph, start, goal):
     queue = [(0, start, [start])]  # (cost, node, path)
@@ -103,25 +105,22 @@ def ucs_path(graph, start, goal):
     return None
 
 
-@app.route("/", methods=['GET'])
+@app.route("/route", methods=['GET'])
 def get_route():
 
-    algorithm = request.args.get('algorithm', 'UCS')
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    if algorithm != 'UCS':
-        return jsonify({"error": "Only UCS algorithm is supported."}), 400
-    
-    path = ucs_path(G, start, dest)
+    path,estimated_time= a_star(graph, heuristic, start, dest)
     
     # Display path
     if path:
-        print(f"Path from {start} to {dest} using {algorithm}: {' -> '.join(path)}")
+        print(f"Path from {start} to {dest}: {' -> '.join(path)}")
+        print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime('%H:%M')}")
     else:
-        print(f"No path found from {start} to {dest} using {algorithm}.")
+        print(f"No path found from {start} to {dest}.")
         
-    return jsonify({"start": start, "dest": dest, "algorithm": algorithm, "path": path})
+    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path})
     
 
 @app.route("/<start>/<dest>", methods=['GET'])

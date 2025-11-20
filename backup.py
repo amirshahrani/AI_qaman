@@ -32,6 +32,7 @@ graph = {
     'Block_K': [('IRC', 0.75), ('Pocket_D', 1)],
     'Pocket_C': [('Pocket_D', 1), ('V5', 2)],
     'Block_I': [('V5', 2)],
+    'Block1': [('Pocket_D', 1)],
 }
 heuristic = {
     'V5': 3.0, 'V3': 1.75, 'V4': 4.0, 'Pocket_D': 1.0, 'Pocket_C': 2.0, 
@@ -56,7 +57,7 @@ def a_star(graph,heuristic, start, goal):
         print(f"Total time : {cost} minutes")
         print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
         print(f"path: {path}")
-        return None
+        return path,estimated_time
     
     if node not in visited:
       visited.add(node)
@@ -67,5 +68,7 @@ def a_star(graph,heuristic, start, goal):
 
   return None
 
-print(a_star(graph, heuristic, 'V5', 'Block_J'))
+path,estimated_time = a_star(graph, heuristic, 'V5', 'Block_K')
+print(f"Path from V5 to Block_K: {' -> '.join(path)}")
+print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime('%H:%M')} ") 
     
