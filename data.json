@@ -1,0 +1,178 @@
+{
+    "graph": {
+        "V1": [
+            ["V2", 3], ["V3", 18], ["V4", 18], ["V5", 18], ["V6", 18], ["V7", 18], ["Block_1", 15], ["Block_2", 15], ["Block_3", 15], ["Block_4", 15], ["Block_5", 15], ["Block_11", 15], ["Block_12", 18], ["Block_13", 18], ["Block_14", 18], ["Block_15", 18], ["Block_16", 18], ["Block_17", 18], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 15], ["Pocket_C", 18], ["Block_I", 15], ["Block_J", 15], ["Block_K", 15], ["Block_B", 15], ["Block_L", 15], ["Masjid_An_Nur", 18], ["Sports_Complex", 20], ["Oval_Park", 18], ["Pusat_Kayak", 20], ["Chancellor_Hall", 18], ["IRC", 18], ["R_D_Building", 18], ["Nadi", 15], ["Cetal", 15], ["Postal_Hub", 18], ["Main_Hall", 18]
+        ],
+        "V2": [
+            ["V1", 3], ["V3", 15], ["V4", 15], ["V5", 15], ["V6", 15], ["V7", 18], ["Block_1", 12], ["Block_2", 12], ["Block_3", 12], ["Block_4", 12], ["Block_5", 12], ["Block_11", 12], ["Block_12", 15], ["Block_13", 15], ["Block_14", 15], ["Block_15", 18], ["Block_16", 18], ["Block_17", 18], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 12], ["Pocket_C", 15], ["Block_I", 12], ["Block_J", 12], ["Block_K", 12], ["Block_B", 12], ["Block_L", 12], ["Masjid_An_Nur", 15], ["Sports_Complex", 18], ["Oval_Park", 15], ["Pusat_Kayak", 18], ["Chancellor_Hall", 15], ["IRC", 15], ["R_D_Building", 15], ["Nadi", 12], ["Cetal", 12], ["Postal_Hub", 15], ["Main_Hall", 15]
+        ],
+        "V3": [
+            ["V1", 18], ["V2", 15], ["V4", 3], ["V5", 5], ["V6", 8], ["V7", 12], ["Block_1", 8], ["Block_2", 8], ["Block_3", 5], ["Block_4", 5], ["Block_5", 5], ["Block_11", 8], ["Block_12", 10], ["Block_13", 10], ["Block_14", 12], ["Block_15", 12], ["Block_16", 12], ["Block_17", 12], ["Block_18", 12], ["Block_19", 15], ["Block_20", 15], ["Block_21", 18], ["Block_22", 18], ["Block_23", 18], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 5], ["Block_J", 5], ["Block_K", 5], ["Block_B", 5], ["Block_L", 5], ["Masjid_An_Nur", 5], ["Sports_Complex", 10], ["Oval_Park", 8], ["Pusat_Kayak", 12], ["Chancellor_Hall", 5], ["IRC", 5], ["R_D_Building", 8], ["Nadi", 5], ["Cetal", 5], ["Postal_Hub", 5], ["Main_Hall", 5]
+        ],
+        "V4": [
+            ["V1", 18], ["V2", 15], ["V3", 3], ["V5", 3], ["V6", 10], ["V7", 15], ["Block_1", 10], ["Block_2", 8], ["Block_3", 5], ["Block_4", 3], ["Block_5", 5], ["Block_11", 10], ["Block_12", 12], ["Block_13", 12], ["Block_14", 15], ["Block_15", 15], ["Block_16", 15], ["Block_17", 15], ["Block_18", 15], ["Block_19", 18], ["Block_20", 18], ["Block_21", 18], ["Block_22", 18], ["Block_23", 18], ["Pocket_D", 8], ["Pocket_C", 10], ["Block_I", 8], ["Block_J", 8], ["Block_K", 8], ["Block_B", 8], ["Block_L", 8], ["Masjid_An_Nur", 8], ["Sports_Complex", 12], ["Oval_Park", 10], ["Pusat_Kayak", 15], ["Chancellor_Hall", 8], ["IRC", 8], ["R_D_Building", 10], ["Nadi", 8], ["Cetal", 8], ["Postal_Hub", 8], ["Main_Hall", 8]
+        ],
+        "V5": [
+            ["V1", 18], ["V2", 15], ["V3", 5], ["V4", 3], ["V6", 5], ["V7", 10], ["Block_1", 10], ["Block_2", 10], ["Block_3", 8], ["Block_4", 8], ["Block_5", 5], ["Block_11", 10], ["Block_12", 12], ["Block_13", 12], ["Block_14", 15], ["Block_15", 15], ["Block_16", 15], ["Block_17", 15], ["Block_18", 15], ["Block_19", 18], ["Block_20", 18], ["Block_21", 18], ["Block_22", 18], ["Block_23", 18], ["Pocket_D", 10], ["Pocket_C", 12], ["Block_I", 10], ["Block_J", 10], ["Block_K", 10], ["Block_B", 10], ["Block_L", 10], ["Masjid_An_Nur", 10], ["Sports_Complex", 15], ["Oval_Park", 12], ["Pusat_Kayak", 18], ["Chancellor_Hall", 10], ["IRC", 10], ["R_D_Building", 12], ["Nadi", 10], ["Cetal", 10], ["Postal_Hub", 10], ["Main_Hall", 10]
+        ],
+        "V6": [
+            ["V1", 18], ["V2", 15], ["V3", 8], ["V4", 10], ["V5", 5], ["V7", 3], ["Block_1", 15], ["Block_2", 15], ["Block_3", 12], ["Block_4", 12], ["Block_5", 10], ["Block_11", 15], ["Block_12", 15], ["Block_13", 18], ["Block_14", 18], ["Block_15", 18], ["Block_16", 18], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 15], ["Pocket_C", 18], ["Block_I", 15], ["Block_J", 15], ["Block_K", 15], ["Block_B", 15], ["Block_L", 15], ["Masjid_An_Nur", 18], ["Sports_Complex", 20], ["Oval_Park", 18], ["Pusat_Kayak", 20], ["Chancellor_Hall", 18], ["IRC", 18], ["R_D_Building", 18], ["Nadi", 15], ["Cetal", 15], ["Postal_Hub", 18], ["Main_Hall", 18]
+        ],
+        "V7": [
+            ["V1", 18], ["V2", 18], ["V3", 12], ["V4", 15], ["V5", 10], ["V6", 3], ["Block_1", 18], ["Block_2", 18], ["Block_3", 15], ["Block_4", 15], ["Block_5", 12], ["Block_11", 18], ["Block_12", 18], ["Block_13", 20], ["Block_14", 20], ["Block_15", 20], ["Block_16", 20], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 18], ["Pocket_C", 20], ["Block_I", 18], ["Block_J", 18], ["Block_K", 18], ["Block_B", 18], ["Block_L", 18], ["Masjid_An_Nur", 20], ["Sports_Complex", 20], ["Oval_Park", 20], ["Pusat_Kayak", 20], ["Chancellor_Hall", 20], ["IRC", 20], ["R_D_Building", 20], ["Nadi", 18], ["Cetal", 18], ["Postal_Hub", 20], ["Main_Hall", 20]
+        ],
+        "Block_1": [
+            ["V1", 15], ["V2", 12], ["V3", 8], ["V4", 10], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_2", 3], ["Block_3", 5], ["Block_4", 7], ["Block_5", 10], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 3], ["Block_J", 5], ["Block_K", 7], ["Block_B", 5], ["Block_L", 8], ["Masjid_An_Nur", 8], ["Sports_Complex", 12], ["Oval_Park", 10], ["Pusat_Kayak", 15], ["Chancellor_Hall", 10], ["IRC", 8], ["R_D_Building", 8], ["Nadi", 5], ["Cetal", 3], ["Postal_Hub", 8], ["Main_Hall", 10]
+        ],
+        "Block_2": [
+            ["V1", 15], ["V2", 12], ["V3", 8], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 3], ["Block_3", 3], ["Block_4", 5], ["Block_5", 8], ["Block_11", 3], ["Block_12", 5], ["Block_13", 8], ["Block_14", 10], ["Block_15", 12], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 3], ["Pocket_C", 5], ["Block_I", 3], ["Block_J", 5], ["Block_K", 7], ["Block_B", 3], ["Block_L", 5], ["Masjid_An_Nur", 5], ["Sports_Complex", 10], ["Oval_Park", 8], ["Pusat_Kayak", 12], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 3], ["Cetal", 3], ["Postal_Hub", 5], ["Main_Hall", 8]
+        ],
+        "Block_3": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 5], ["V5", 8], ["V6", 12], ["V7", 15], ["Block_1", 5], ["Block_2", 3], ["Block_4", 3], ["Block_5", 5], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 3], ["Pocket_C", 5], ["Block_I", 5], ["Block_J", 3], ["Block_K", 5], ["Block_B", 5], ["Block_L", 8], ["Masjid_An_Nur", 3], ["Sports_Complex", 8], ["Oval_Park", 5], ["Pusat_Kayak", 10], ["Chancellor_Hall", 5], ["IRC", 3], ["R_D_Building", 3], ["Nadi", 5], ["Cetal", 5], ["Postal_Hub", 5], ["Main_Hall", 5]
+        ],
+        "Block_4": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 3], ["V5", 8], ["V6", 12], ["V7", 15], ["Block_1", 7], ["Block_2", 5], ["Block_3", 3], ["Block_5", 3], ["Block_11", 8], ["Block_12", 10], ["Block_13", 12], ["Block_14", 15], ["Block_15", 18], ["Block_16", 18], ["Block_17", 18], ["Block_18", 18], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 8], ["Block_J", 5], ["Block_K", 3], ["Block_B", 8], ["Block_L", 10], ["Masjid_An_Nur", 5], ["Sports_Complex", 10], ["Oval_Park", 8], ["Pusat_Kayak", 12], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 8], ["Cetal", 8], ["Postal_Hub", 8], ["Main_Hall", 8]
+        ],
+        "Block_5": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 5], ["V5", 5], ["V6", 10], ["V7", 12], ["Block_1", 10], ["Block_2", 8], ["Block_3", 5], ["Block_4", 3], ["Block_11", 10], ["Block_12", 12], ["Block_13", 15], ["Block_14", 18], ["Block_15", 18], ["Block_16", 18], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 8], ["Pocket_C", 10], ["Block_I", 10], ["Block_J", 8], ["Block_K", 5], ["Block_B", 10], ["Block_L", 12], ["Masjid_An_Nur", 8], ["Sports_Complex", 12], ["Oval_Park", 10], ["Pusat_Kayak", 15], ["Chancellor_Hall", 10], ["IRC", 8], ["R_D_Building", 8], ["Nadi", 10], ["Cetal", 10], ["Postal_Hub", 10], ["Main_Hall", 10]
+        ],
+        "Block_11": [
+            ["V1", 15], ["V2", 12], ["V3", 8], ["V4", 10], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 5], ["Block_2", 3], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_12", 3], ["Block_13", 5], ["Block_14", 8], ["Block_15", 10], ["Block_16", 12], ["Block_17", 15], ["Block_18", 15], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 3], ["Block_I", 5], ["Block_J", 8], ["Block_K", 10], ["Block_B", 3], ["Block_L", 5], ["Masjid_An_Nur", 5], ["Sports_Complex", 10], ["Oval_Park", 8], ["Pusat_Kayak", 12], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 5], ["Cetal", 5], ["Postal_Hub", 8], ["Main_Hall", 8]
+        ],
+        "Block_12": [
+            ["V1", 18], ["V2", 15], ["V3", 10], ["V4", 12], ["V5", 12], ["V6", 15], ["V7", 18], ["Block_1", 8], ["Block_2", 5], ["Block_3", 8], ["Block_4", 10], ["Block_5", 12], ["Block_11", 3], ["Block_13", 3], ["Block_14", 5], ["Block_15", 8], ["Block_16", 10], ["Block_17", 12], ["Block_18", 15], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 8], ["Pocket_C", 5], ["Block_I", 8], ["Block_J", 10], ["Block_K", 12], ["Block_B", 5], ["Block_L", 3], ["Masjid_An_Nur", 8], ["Sports_Complex", 12], ["Oval_Park", 10], ["Pusat_Kayak", 15], ["Chancellor_Hall", 10], ["IRC", 8], ["R_D_Building", 8], ["Nadi", 8], ["Cetal", 8], ["Postal_Hub", 10], ["Main_Hall", 10]
+        ],
+        "Block_13": [
+            ["V1", 18], ["V2", 15], ["V3", 10], ["V4", 12], ["V5", 12], ["V6", 18], ["V7", 20], ["Block_1", 10], ["Block_2", 8], ["Block_3", 10], ["Block_4", 12], ["Block_5", 15], ["Block_11", 5], ["Block_12", 3], ["Block_14", 3], ["Block_15", 5], ["Block_16", 8], ["Block_17", 10], ["Block_18", 12], ["Block_19", 15], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 10], ["Pocket_C", 8], ["Block_I", 10], ["Block_J", 12], ["Block_K", 15], ["Block_B", 8], ["Block_L", 5], ["Masjid_An_Nur", 10], ["Sports_Complex", 15], ["Oval_Park", 12], ["Pusat_Kayak", 18], ["Chancellor_Hall", 12], ["IRC", 10], ["R_D_Building", 10], ["Nadi", 10], ["Cetal", 10], ["Postal_Hub", 12], ["Main_Hall", 12]
+        ],
+        "Block_14": [
+            ["V1", 18], ["V2", 15], ["V3", 12], ["V4", 15], ["V5", 15], ["V6", 18], ["V7", 20], ["Block_1", 12], ["Block_2", 10], ["Block_3", 12], ["Block_4", 15], ["Block_5", 18], ["Block_11", 8], ["Block_12", 5], ["Block_13", 3], ["Block_15", 3], ["Block_16", 5], ["Block_17", 8], ["Block_18", 10], ["Block_19", 12], ["Block_20", 15], ["Block_21", 18], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 12], ["Pocket_C", 10], ["Block_I", 12], ["Block_J", 15], ["Block_K", 18], ["Block_B", 10], ["Block_L", 8], ["Masjid_An_Nur", 12], ["Sports_Complex", 15], ["Oval_Park", 12], ["Pusat_Kayak", 18], ["Chancellor_Hall", 15], ["IRC", 12], ["R_D_Building", 12], ["Nadi", 12], ["Cetal", 12], ["Postal_Hub", 15], ["Main_Hall", 15]
+        ],
+        "Block_15": [
+            ["V1", 18], ["V2", 18], ["V3", 12], ["V4", 15], ["V5", 15], ["V6", 18], ["V7", 20], ["Block_1", 15], ["Block_2", 12], ["Block_3", 15], ["Block_4", 18], ["Block_5", 18], ["Block_11", 10], ["Block_12", 8], ["Block_13", 5], ["Block_14", 3], ["Block_16", 3], ["Block_17", 5], ["Block_18", 8], ["Block_19", 10], ["Block_20", 12], ["Block_21", 15], ["Block_22", 18], ["Block_23", 20], ["Pocket_D", 15], ["Pocket_C", 12], ["Block_I", 15], ["Block_J", 18], ["Block_K", 20], ["Block_B", 12], ["Block_L", 10], ["Masjid_An_Nur", 15], ["Sports_Complex", 18], ["Oval_Park", 15], ["Pusat_Kayak", 20], ["Chancellor_Hall", 18], ["IRC", 15], ["R_D_Building", 15], ["Nadi", 15], ["Cetal", 15], ["Postal_Hub", 18], ["Main_Hall", 18]
+        ],
+        "Block_16": [
+            ["V1", 18], ["V2", 18], ["V3", 12], ["V4", 15], ["V5", 15], ["V6", 18], ["V7", 20], ["Block_1", 15], ["Block_2", 15], ["Block_3", 15], ["Block_4", 18], ["Block_5", 18], ["Block_11", 12], ["Block_12", 10], ["Block_13", 8], ["Block_14", 5], ["Block_15", 3], ["Block_17", 3], ["Block_18", 5], ["Block_19", 8], ["Block_20", 10], ["Block_21", 12], ["Block_22", 15], ["Block_23", 18], ["Pocket_D", 15], ["Pocket_C", 15], ["Block_I", 15], ["Block_J", 18], ["Block_K", 20], ["Block_B", 15], ["Block_L", 12], ["Masjid_An_Nur", 15], ["Sports_Complex", 18], ["Oval_Park", 15], ["Pusat_Kayak", 20], ["Chancellor_Hall", 18], ["IRC", 15], ["R_D_Building", 15], ["Nadi", 15], ["Cetal", 15], ["Postal_Hub", 18], ["Main_Hall", 18]
+        ],
+        "Block_17": [
+            ["V1", 18], ["V2", 18], ["V3", 12], ["V4", 15], ["V5", 15], ["V6", 20], ["V7", 20], ["Block_1", 18], ["Block_2", 18], ["Block_3", 18], ["Block_4", 18], ["Block_5", 20], ["Block_11", 15], ["Block_12", 12], ["Block_13", 10], ["Block_14", 8], ["Block_15", 5], ["Block_16", 3], ["Block_18", 3], ["Block_19", 5], ["Block_20", 8], ["Block_21", 10], ["Block_22", 12], ["Block_23", 15], ["Pocket_D", 18], ["Pocket_C", 15], ["Block_I", 18], ["Block_J", 20], ["Block_K", 20], ["Block_B", 15], ["Block_L", 15], ["Masjid_An_Nur", 18], ["Sports_Complex", 20], ["Oval_Park", 18], ["Pusat_Kayak", 20], ["Chancellor_Hall", 20], ["IRC", 18], ["R_D_Building", 18], ["Nadi", 18], ["Cetal", 18], ["Postal_Hub", 20], ["Main_Hall", 20]
+        ],
+        "Block_18": [
+            ["V1", 18], ["V2", 18], ["V3", 12], ["V4", 15], ["V5", 15], ["V6", 20], ["V7", 20], ["Block_1", 18], ["Block_2", 18], ["Block_3", 18], ["Block_4", 18], ["Block_5", 20], ["Block_11", 15], ["Block_12", 15], ["Block_13", 12], ["Block_14", 10], ["Block_15", 8], ["Block_16", 5], ["Block_17", 3], ["Block_19", 3], ["Block_20", 5], ["Block_21", 8], ["Block_22", 10], ["Block_23", 12], ["Pocket_D", 18], ["Pocket_C", 18], ["Block_I", 18], ["Block_J", 20], ["Block_K", 20], ["Block_B", 18], ["Block_L", 15], ["Masjid_An_Nur", 18], ["Sports_Complex", 20], ["Oval_Park", 18], ["Pusat_Kayak", 20], ["Chancellor_Hall", 20], ["IRC", 18], ["R_D_Building", 18], ["Nadi", 18], ["Cetal", 18], ["Postal_Hub", 20], ["Main_Hall", 20]
+        ],
+        "Block_19": [
+            ["V1", 18], ["V2", 18], ["V3", 15], ["V4", 18], ["V5", 18], ["V6", 20], ["V7", 20], ["Block_1", 18], ["Block_2", 18], ["Block_3", 18], ["Block_4", 20], ["Block_5", 20], ["Block_11", 18], ["Block_12", 18], ["Block_13", 15], ["Block_14", 12], ["Block_15", 10], ["Block_16", 8], ["Block_17", 5], ["Block_18", 3], ["Block_20", 3], ["Block_21", 5], ["Block_22", 8], ["Block_23", 10], ["Pocket_D", 18], ["Pocket_C", 18], ["Block_I", 18], ["Block_J", 20], ["Block_K", 20], ["Block_B", 18], ["Block_L", 18], ["Masjid_An_Nur", 20], ["Sports_Complex", 20], ["Oval_Park", 20], ["Pusat_Kayak", 20], ["Chancellor_Hall", 20], ["IRC", 20], ["R_D_Building", 20], ["Nadi", 20], ["Cetal", 20], ["Postal_Hub", 20], ["Main_Hall", 20]
+        ],
+        "Block_20": [
+            ["V1", 18], ["V2", 18], ["V3", 15], ["V4", 18], ["V5", 18], ["V6", 20], ["V7", 20], ["Block_1", 18], ["Block_2", 18], ["Block_3", 18], ["Block_4", 20], ["Block_5", 20], ["Block_11", 18], ["Block_12", 18], ["Block_13", 18], ["Block_14", 15], ["Block_15", 12], ["Block_16", 10], ["Block_17", 8], ["Block_18", 5], ["Block_19", 3], ["Block_21", 3], ["Block_22", 5], ["Block_23", 8], ["Pocket_D", 18], ["Pocket_C", 18], ["Block_I", 18], ["Block_J", 20], ["Block_K", 20], ["Block_B", 18], ["Block_L", 18], ["Masjid_An_Nur", 20], ["Sports_Complex", 20], ["Oval_Park", 20], ["Pusat_Kayak", 20], ["Chancellor_Hall", 20], ["IRC", 20], ["R_D_Building", 20], ["Nadi", 20], ["Cetal", 20], ["Postal_Hub", 20], ["Main_Hall", 20]
+        ],
+        "Block_21": [
+            ["V1", 20], ["V2", 20], ["V3", 18], ["V4", 18], ["V5", 18], ["V6", 20], ["V7", 20], ["Block_1", 20], ["Block_2", 20], ["Block_3", 20], ["Block_4", 20], ["Block_5", 20], ["Block_11", 20], ["Block_12", 20], ["Block_13", 20], ["Block_14", 18], ["Block_15", 15], ["Block_16", 12], ["Block_17", 10], ["Block_18", 8], ["Block_19", 5], ["Block_20", 3], ["Block_22", 3], ["Block_23", 5], ["Pocket_D", 20], ["Pocket_C", 20], ["Block_I", 20], ["Block_J", 20], ["Block_K", 20], ["Block_B", 20], ["Block_L", 20], ["Masjid_An_Nur", 20], ["Sports_Complex", 20], ["Oval_Park", 20], ["Pusat_Kayak", 20], ["Chancellor_Hall", 20], ["IRC", 20], ["R_D_Building", 20], ["Nadi", 20], ["Cetal", 20], ["Postal_Hub", 20], ["Main_Hall", 20]
+        ],
+        "Block_22": [
+            ["V1", 20], ["V2", 20], ["V3", 18], ["V4", 18], ["V5", 18], ["V6", 20], ["V7", 20], ["Block_1", 20], ["Block_2", 20], ["Block_3", 20], ["Block_4", 20], ["Block_5", 20], ["Block_11", 20], ["Block_12", 20], ["Block_13", 20], ["Block_14", 20], ["Block_15", 18], ["Block_16", 15], ["Block_17", 12], ["Block_18", 10], ["Block_19", 8], ["Block_20", 5], ["Block_21", 3], ["Block_23", 3], ["Pocket_D", 20], ["Pocket_C", 20], ["Block_I", 20], ["Block_J", 20], ["Block_K", 20], ["Block_B", 20], ["Block_L", 20], ["Masjid_An_Nur", 20], ["Sports_Complex", 20], ["Oval_Park", 20], ["Pusat_Kayak", 20], ["Chancellor_Hall", 20], ["IRC", 20], ["R_D_Building", 20], ["Nadi", 20], ["Cetal", 20], ["Postal_Hub", 20], ["Main_Hall", 20]
+        ],
+        "Block_23": [
+            ["V1", 20], ["V2", 20], ["V3", 18], ["V4", 18], ["V5", 18], ["V6", 20], ["V7", 20], ["Block_1", 20], ["Block_2", 20], ["Block_3", 20], ["Block_4", 20], ["Block_5", 20], ["Block_11", 20], ["Block_12", 20], ["Block_13", 20], ["Block_14", 20], ["Block_15", 20], ["Block_16", 18], ["Block_17", 15], ["Block_18", 12], ["Block_19", 10], ["Block_20", 8], ["Block_21", 5], ["Block_22", 3], ["Pocket_D", 20], ["Pocket_C", 20], ["Block_I", 20], ["Block_J", 20], ["Block_K", 20], ["Block_B", 20], ["Block_L", 20], ["Masjid_An_Nur", 20], ["Sports_Complex", 20], ["Oval_Park", 20], ["Pusat_Kayak", 20], ["Chancellor_Hall", 20], ["IRC", 20], ["R_D_Building", 20], ["Nadi", 20], ["Cetal", 20], ["Postal_Hub", 20], ["Main_Hall", 20]
+        ],
+        "Pocket_D": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 5], ["Block_2", 3], ["Block_3", 3], ["Block_4", 5], ["Block_5", 8], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_C", 5], ["Block_I", 3], ["Block_J", 5], ["Block_K", 8], ["Block_B", 3], ["Block_L", 5], ["Masjid_An_Nur", 5], ["Sports_Complex", 10], ["Oval_Park", 8], ["Pusat_Kayak", 12], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 5], ["Cetal", 5], ["Postal_Hub", 8], ["Main_Hall", 8]
+        ],
+        "Pocket_C": [
+            ["V1", 18], ["V2", 15], ["V3", 8], ["V4", 10], ["V5", 12], ["V6", 18], ["V7", 20], ["Block_1", 8], ["Block_2", 5], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 3], ["Block_12", 5], ["Block_13", 8], ["Block_14", 10], ["Block_15", 12], ["Block_16", 15], ["Block_17", 15], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Block_I", 5], ["Block_J", 8], ["Block_K", 10], ["Block_B", 3], ["Block_L", 3], ["Masjid_An_Nur", 8], ["Sports_Complex", 12], ["Oval_Park", 10], ["Pusat_Kayak", 15], ["Chancellor_Hall", 10], ["IRC", 8], ["R_D_Building", 8], ["Nadi", 8], ["Cetal", 8], ["Postal_Hub", 10], ["Main_Hall", 10]
+        ],
+        "Block_I": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 3], ["Block_2", 3], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 3], ["Pocket_C", 5], ["Block_J", 3], ["Block_K", 5], ["Block_B", 3], ["Block_L", 5], ["Masjid_An_Nur", 5], ["Sports_Complex", 10], ["Oval_Park", 8], ["Pusat_Kayak", 12], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 5], ["Cetal", 3], ["Postal_Hub", 8], ["Main_Hall", 8]
+        ],
+        "Block_J": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 5], ["Block_2", 5], ["Block_3", 3], ["Block_4", 5], ["Block_5", 8], ["Block_11", 8], ["Block_12", 10], ["Block_13", 12], ["Block_14", 15], ["Block_15", 18], ["Block_16", 18], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 3], ["Block_K", 3], ["Block_B", 5], ["Block_L", 8], ["Masjid_An_Nur", 3], ["Sports_Complex", 8], ["Oval_Park", 5], ["Pusat_Kayak", 10], ["Chancellor_Hall", 5], ["IRC", 3], ["R_D_Building", 3], ["Nadi", 5], ["Cetal", 5], ["Postal_Hub", 5], ["Main_Hall", 5]
+        ],
+        "Block_K": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 7], ["Block_2", 7], ["Block_3", 5], ["Block_4", 3], ["Block_5", 5], ["Block_11", 10], ["Block_12", 12], ["Block_13", 15], ["Block_14", 18], ["Block_15", 20], ["Block_16", 20], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 8], ["Pocket_C", 10], ["Block_I", 5], ["Block_J", 3], ["Block_B", 8], ["Block_L", 10], ["Masjid_An_Nur", 5], ["Sports_Complex", 10], ["Oval_Park", 8], ["Pusat_Kayak", 12], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 8], ["Cetal", 8], ["Postal_Hub", 8], ["Main_Hall", 8]
+        ],
+        "Block_B": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 5], ["Block_2", 3], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 3], ["Block_12", 5], ["Block_13", 8], ["Block_14", 10], ["Block_15", 12], ["Block_16", 15], ["Block_17", 15], ["Block_18", 18], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 3], ["Pocket_C", 3], ["Block_I", 3], ["Block_J", 5], ["Block_K", 8], ["Block_L", 3], ["Masjid_An_Nur", 5], ["Sports_Complex", 10], ["Oval_Park", 8], ["Pusat_Kayak", 12], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 5], ["Cetal", 5], ["Postal_Hub", 8], ["Main_Hall", 8]
+        ],
+        "Block_L": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 8], ["Block_2", 5], ["Block_3", 8], ["Block_4", 10], ["Block_5", 12], ["Block_11", 5], ["Block_12", 3], ["Block_13", 5], ["Block_14", 8], ["Block_15", 10], ["Block_16", 12], ["Block_17", 15], ["Block_18", 15], ["Block_19", 18], ["Block_20", 18], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 3], ["Block_I", 5], ["Block_J", 8], ["Block_K", 10], ["Block_B", 3], ["Masjid_An_Nur", 8], ["Sports_Complex", 12], ["Oval_Park", 10], ["Pusat_Kayak", 15], ["Chancellor_Hall", 10], ["IRC", 8], ["R_D_Building", 8], ["Nadi", 8], ["Cetal", 8], ["Postal_Hub", 10], ["Main_Hall", 10]
+        ],
+        "Masjid_An_Nur": [
+            ["V1", 18], ["V2", 15], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 18], ["V7", 20], ["Block_1", 8], ["Block_2", 5], ["Block_3", 3], ["Block_4", 5], ["Block_5", 8], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 5], ["Block_J", 3], ["Block_K", 5], ["Block_B", 5], ["Block_L", 8], ["Sports_Complex", 12], ["Oval_Park", 8], ["Pusat_Kayak", 10], ["Chancellor_Hall", 5], ["IRC", 3], ["R_D_Building", 3], ["Nadi", 5], ["Cetal", 5], ["Postal_Hub", 5], ["Main_Hall", 5]
+        ],
+        "Sports_Complex": [
+            ["V1", 20], ["V2", 18], ["V3", 10], ["V4", 12], ["V5", 15], ["V6", 20], ["V7", 20], ["Block_1", 12], ["Block_2", 10], ["Block_3", 8], ["Block_4", 10], ["Block_5", 12], ["Block_11", 10], ["Block_12", 12], ["Block_13", 15], ["Block_14", 15], ["Block_15", 18], ["Block_16", 18], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 10], ["Pocket_C", 12], ["Block_I", 10], ["Block_J", 8], ["Block_K", 10], ["Block_B", 10], ["Block_L", 12], ["Masjid_An_Nur", 12], ["Oval_Park", 5], ["Pusat_Kayak", 8], ["Chancellor_Hall", 12], ["IRC", 10], ["R_D_Building", 10], ["Nadi", 12], ["Cetal", 12], ["Postal_Hub", 15], ["Main_Hall", 12]
+        ],
+        "Oval_Park": [
+            ["V1", 18], ["V2", 15], ["V3", 8], ["V4", 10], ["V5", 12], ["V6", 18], ["V7", 20], ["Block_1", 10], ["Block_2", 8], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 8], ["Block_12", 10], ["Block_13", 12], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 8], ["Pocket_C", 10], ["Block_I", 8], ["Block_J", 5], ["Block_K", 8], ["Block_B", 8], ["Block_L", 10], ["Masjid_An_Nur", 8], ["Sports_Complex", 5], ["Pusat_Kayak", 5], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 8], ["Cetal", 8], ["Postal_Hub", 10], ["Main_Hall", 8]
+        ],
+        "Pusat_Kayak": [
+            ["V1", 20], ["V2", 18], ["V3", 12], ["V4", 15], ["V5", 18], ["V6", 20], ["V7", 20], ["Block_1", 15], ["Block_2", 12], ["Block_3", 10], ["Block_4", 12], ["Block_5", 15], ["Block_11", 12], ["Block_12", 15], ["Block_13", 18], ["Block_14", 18], ["Block_15", 20], ["Block_16", 20], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 12], ["Pocket_C", 15], ["Block_I", 12], ["Block_J", 10], ["Block_K", 12], ["Block_B", 12], ["Block_L", 15], ["Masjid_An_Nur", 10], ["Sports_Complex", 8], ["Oval_Park", 5], ["Chancellor_Hall", 10], ["IRC", 8], ["R_D_Building", 8], ["Nadi", 10], ["Cetal", 10], ["Postal_Hub", 12], ["Main_Hall", 10]
+        ],
+        "Chancellor_Hall": [
+            ["V1", 18], ["V2", 15], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 18], ["V7", 20], ["Block_1", 10], ["Block_2", 8], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 8], ["Block_12", 10], ["Block_13", 12], ["Block_14", 15], ["Block_15", 18], ["Block_16", 18], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 8], ["Pocket_C", 10], ["Block_I", 8], ["Block_J", 5], ["Block_K", 8], ["Block_B", 8], ["Block_L", 10], ["Masjid_An_Nur", 5], ["Sports_Complex", 12], ["Oval_Park", 8], ["Pusat_Kayak", 10], ["IRC", 3], ["R_D_Building", 5], ["Nadi", 5], ["Cetal", 8], ["Postal_Hub", 5], ["Main_Hall", 3]
+        ],
+        "IRC": [
+            ["V1", 18], ["V2", 15], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 18], ["V7", 20], ["Block_1", 8], ["Block_2", 5], ["Block_3", 3], ["Block_4", 5], ["Block_5", 8], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 5], ["Block_J", 3], ["Block_K", 5], ["Block_B", 5], ["Block_L", 8], ["Masjid_An_Nur", 3], ["Sports_Complex", 10], ["Oval_Park", 5], ["Pusat_Kayak", 8], ["Chancellor_Hall", 3], ["R_D_Building", 3], ["Nadi", 3], ["Cetal", 5], ["Postal_Hub", 5], ["Main_Hall", 3]
+        ],
+        "R_D_Building": [
+            ["V1", 18], ["V2", 15], ["V3", 8], ["V4", 10], ["V5", 12], ["V6", 18], ["V7", 20], ["Block_1", 8], ["Block_2", 5], ["Block_3", 3], ["Block_4", 5], ["Block_5", 8], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 5], ["Block_J", 3], ["Block_K", 5], ["Block_B", 5], ["Block_L", 8], ["Masjid_An_Nur", 3], ["Sports_Complex", 10], ["Oval_Park", 5], ["Pusat_Kayak", 8], ["Chancellor_Hall", 5], ["IRC", 3], ["Nadi", 3], ["Cetal", 5], ["Postal_Hub", 5], ["Main_Hall", 5]
+        ],
+        "Nadi": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 5], ["Block_2", 3], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 5], ["Block_J", 5], ["Block_K", 8], ["Block_B", 5], ["Block_L", 8], ["Masjid_An_Nur", 5], ["Sports_Complex", 12], ["Oval_Park", 8], ["Pusat_Kayak", 10], ["Chancellor_Hall", 5], ["IRC", 3], ["R_D_Building", 3], ["Cetal", 3], ["Postal_Hub", 5], ["Main_Hall", 5]
+        ],
+        "Cetal": [
+            ["V1", 15], ["V2", 12], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 15], ["V7", 18], ["Block_1", 3], ["Block_2", 3], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 5], ["Block_12", 8], ["Block_13", 10], ["Block_14", 12], ["Block_15", 15], ["Block_16", 15], ["Block_17", 18], ["Block_18", 18], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 5], ["Pocket_C", 8], ["Block_I", 3], ["Block_J", 5], ["Block_K", 8], ["Block_B", 5], ["Block_L", 8], ["Masjid_An_Nur", 5], ["Sports_Complex", 12], ["Oval_Park", 8], ["Pusat_Kayak", 10], ["Chancellor_Hall", 8], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 3], ["Postal_Hub", 8], ["Main_Hall", 10]
+        ],
+        "Postal_Hub": [
+            ["V1", 18], ["V2", 15], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 18], ["V7", 20], ["Block_1", 8], ["Block_2", 5], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 8], ["Block_12", 10], ["Block_13", 12], ["Block_14", 15], ["Block_15", 18], ["Block_16", 18], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 8], ["Pocket_C", 10], ["Block_I", 8], ["Block_J", 5], ["Block_K", 8], ["Block_B", 8], ["Block_L", 10], ["Masjid_An_Nur", 5], ["Sports_Complex", 15], ["Oval_Park", 10], ["Pusat_Kayak", 12], ["Chancellor_Hall", 5], ["IRC", 5], ["R_D_Building", 5], ["Nadi", 5], ["Cetal", 8], ["Main_Hall", 5]
+        ],
+        "Main_Hall": [
+            ["V1", 18], ["V2", 15], ["V3", 5], ["V4", 8], ["V5", 10], ["V6", 18], ["V7", 20], ["Block_1", 10], ["Block_2", 8], ["Block_3", 5], ["Block_4", 8], ["Block_5", 10], ["Block_11", 8], ["Block_12", 10], ["Block_13", 12], ["Block_14", 15], ["Block_15", 18], ["Block_16", 18], ["Block_17", 20], ["Block_18", 20], ["Block_19", 20], ["Block_20", 20], ["Block_21", 20], ["Block_22", 20], ["Block_23", 20], ["Pocket_D", 8], ["Pocket_C", 10], ["Block_I", 8], ["Block_J", 5], ["Block_K", 8], ["Block_B", 8], ["Block_L", 10], ["Masjid_An_Nur", 5], ["Sports_Complex", 12], ["Oval_Park", 8], ["Pusat_Kayak", 10], ["Chancellor_Hall", 3], ["IRC", 3], ["R_D_Building", 5], ["Nadi", 5], ["Cetal", 10], ["Postal_Hub", 5]
+        ]
+    },
+    "heuristic": {
+        "Main_Hall": 0.0,
+        "Chancellor_Hall": 3.0,
+        "IRC": 2.5,
+        "R_D_Building": 4.0,
+        "Masjid_An_Nur": 4.5,
+        "Postal_Hub": 4.5,
+        "V3": 5.0,
+        "V4": 5.5,
+        "V5": 6.0,
+        "Block_3": 5.5,
+        "Block_J": 5.5,
+        "Block_4": 7.0,
+        "Block_K": 7.0,
+        "Nadi": 4.0,
+        "Pocket_D": 8.0,
+        "Block_B": 8.0,
+        "Pocket_C": 9.0,
+        "Block_I": 9.5,
+        "Cetal": 9.5,
+        "Block_5": 8.5,
+        "Oval_Park": 7.5,
+        "Pusat_Kayak": 9.5,
+        "Sports_Complex": 11.5,
+        "Block_1": 10.0,
+        "Block_2": 10.5,
+        "Block_11": 11.0,
+        "Block_12": 12.0,
+        "Block_13": 12.5,
+        "Block_L": 11.0,
+        "Block_14": 14.0,
+        "Block_15": 16.0,
+        "Block_16": 17.0,
+        "Block_17": 18.0,
+        "Block_18": 18.5,
+        "Block_19": 19.0,
+        "Block_20": 19.5,
+        "Block_21": 20.0,
+        "Block_22": 20.0,
+        "Block_23": 20.0,
+        "V6": 12.0,
+        "V7": 14.0,
+        "V1": 16.5,
+        "V2": 15.0
+    }
+}

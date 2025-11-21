@@ -1,7 +1,12 @@
-import networkx as nx
+# import networkx as nx
 import heapq
-from flask import Flask, request, jsonify
+from flask import Flask, json, request, jsonify
 from datetime import datetime, timedelta
+# import matplotlib.pyplot as plt
+from zoneinfo import ZoneInfo
+
+# Define your target timezone
+kl_timezone = ZoneInfo("Asia/Kuala_Lumpur")
 
 app = Flask(__name__)
 
@@ -11,8 +16,6 @@ def home():
 
 # Create graph with 10 locations in UTP
 locations = ['V5', 'V3', 'V4', 'Pocket_D', 'Pocket_C', 'Block1', 'Block2','IRC','Block_K', 'Block_I']
-
-
 
 # Add edges with approximate distances (in km)
 # Weight(time (min)) = Walking Distance / Average Student Speed (4 km/h)
@@ -46,12 +49,45 @@ heuristic = {
 
 buffer_time = 5  # in minutes 
 
+def load_graph_data(filename="data.json"):
+    with open(filename, 'r') as f:
+        data = json.load(f)
+    
+    # Ensure all required keys are present
+    graph = data.get('graph', {})
+    heuristic = data.get('heuristic', {})
+    
+    print(f"Data loaded successfully from {filename}.")
+    return graph, heuristic, buffer_time
 
-def a_star(graph,heuristic, start, goal):
-    pq = [(heuristic[start], 0, [start])]
+
+# def visualize_graph():
+#     G = nx.Graph()
+#     G.add_nodes_from(locations)
+#     G.add_weighted_edges_from(edges)
+
+#     print("Graph created with nodes:", list(G.nodes()))
+#     print("Edges:", list(G.edges(data=True)))
+
+#     # Visualize the graph
+#     pos = nx.spring_layout(G)  # positions for all nodes
+#     nx.draw(G, pos, with_labels=True, node_color='lightblue', node_size=2000, font_size=10, font_weight='bold')
+#     labels = nx.get_edge_attributes(G, 'weight')
+#     nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
+#     plt.title("Graph of Locations in Perak")
+#     plt.show()
+
+
+
+def a_star(start, goal):
+    
+
+    GRAPH, HEURISTIC, BUFFER_TIME = load_graph_data()
+    
+    pq = [(HEURISTIC[start], 0, [start])]
     visited = set()
 
-    time_now = datetime.now()
+    time_now = datetime.now(kl_timezone)
     print(f"Current Time = {time_now.strftime('%H:%M')} ")
        
 
@@ -72,24 +108,13 @@ def a_star(graph,heuristic, start, goal):
 
         if node not in visited:
             visited.add(node)
-            for neighbor, weight in graph[node]:
+            for neighbor, weight in GRAPH[node]:
                 new_cost = cost + weight
-                total_cost = new_cost + heuristic[neighbor]
+                total_cost = new_cost + HEURISTIC[neighbor]
                 heapq.heappush(pq, (total_cost, new_cost, path + [neighbor]))
             
     return None
 
-# G = nx.Graph()
-# G.add_nodes_from(locations)
-# G.add_weighted_edges_from(edges)
-
-# print("Graph created with nodes:", list(G.nodes()))
-# print("Edges:", list(G.edges(data=True)))
-
-# G.add_weighted_edges_from(edges)
-
-# print("Graph created with nodes:", list(G.nodes()))
-# print("Edges:", list(G.edges(data=True)))
 
 def ucs_path(graph, start, goal):
     queue = [(0, start, [start])]  # (cost, node, path)
@@ -113,7 +138,7 @@ def get_route():
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    path,estimated_time,added_time,distance = a_star(graph, heuristic, start, dest)
+    path,estimated_time,added_time,distance = a_star(start, dest)
     
     # Display path
     if path:
