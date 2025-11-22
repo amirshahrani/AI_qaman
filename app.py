@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 # Define your target timezone
-kl_timezone = ZoneInfo("Asia/Kuala_Lumpur")
+# kl_timezone = ZoneInfo("Asia/Kuala_Lumpur")
 
 app = Flask(__name__)
 
@@ -49,12 +49,17 @@ heuristic = {
 
 buffer_time = 5  # in minutes 
 
-def load_graph_data(filename="data_final.json"):
+def load_graph_data(filename="full_connected_graph.json"):
     with open(filename, 'r') as f:
         data = json.load(f)
     
     # Ensure all required keys are present
     graph = data.get('graph', {})
+    # for place in graph:
+    #     print(place)
+    #     for distance in graph[place]:
+    #         print(distance[1]/4)
+
     heuristic = data.get('heuristic', {})
     
     print(f"Data loaded successfully from {filename}.")
@@ -82,12 +87,12 @@ def load_graph_data(filename="data_final.json"):
 def a_star(start, goal):
     
 
-    GRAPH, HEURISTIC, BUFFER_TIME = load_graph_data()
+    GRAPH, HEURISTIC = load_graph_data()
     
     pq = [(HEURISTIC[start], 0, [start])]
     visited = set()
 
-    time_now = datetime.now(kl_timezone)
+    time_now = datetime.now()
     print(f"Current Time = {time_now.strftime('%H:%M')} ")
        
 
@@ -96,15 +101,16 @@ def a_star(start, goal):
         node = path[-1]
 
         if node == goal:
-            distance = (cost+buffer_time)*60  # convert buffer time to seconds
-            added_time = timedelta(minutes=cost+buffer_time) 
-            print(added_time)
-            estimated_time = time_now + added_time
-            print(f"Total time : {cost} minutes")
-            print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
-            print(f"Distance: {distance} meters")
-            print(f"path: {path}")
-            return path,estimated_time,added_time,distance
+            # distance = (cost+buffer_time)*60  # convert buffer time to seconds
+            # added_time = timedelta(minutes=cost+buffer_time) 
+            # print(added_time)
+            # estimated_time = time_now + added_time
+            # print(f"Total time : {cost} minutes")
+            # print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
+            # print(f"Distance: {distance} meters")
+            # print(f"path: {path}")
+            # return path,estimated_time,added_time,distance
+            return path,cost
 
         if node not in visited:
             visited.add(node)
@@ -138,16 +144,17 @@ def get_route():
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    path,estimated_time,added_time,distance = a_star(start, dest)
+    path,distance = a_star(start, dest)
     
     # Display path
     if path:
         print(f"Path from {start} to {dest}: {' -> '.join(path)}")
-        print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime('%H:%M')}")
+        # print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime('%H:%M')}")
     else:
         print(f"No path found from {start} to {dest}.")
         
-    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
+    # return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
+    return jsonify({"start": start, "dest": dest, "path": path,"distance": distance})
     
 
 @app.route("/<start>/<dest>", methods=['GET'])
@@ -156,16 +163,17 @@ def get_route_two(start, dest):
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    path,estimated_time,added_time,distance = a_star(graph, heuristic, start, dest)
+    path,distance = a_star(graph, heuristic, start, dest)
     
     # Display path
     if path:
         print(f"Path from {start} to {dest}: {' -> '.join(path)}")
-        print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime('%H:%M')}")
+        # print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime('%H:%M')}")
     else:
         print(f"No path found from {start} to {dest}.")
         
-    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
+    # return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
+    return jsonify({"start": start, "dest": dest, "path": path,"distance": distance})
     
     
 if __name__ == '__main__':
