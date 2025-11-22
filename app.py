@@ -154,7 +154,7 @@ def get_route():
         print(f"No path found from {start} to {dest}.")
         
     # return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
-    return jsonify({"start": start, "dest": dest, "estimated_time": 0, "path": path, "added_time": str(0), "distance": distance})
+    return jsonify({"start": start, "dest": dest, "estimated_time": "0", "path": path, "added_time": "0", "distance": distance})
     
 
 @app.route("/<start>/<dest>", methods=['GET'])
