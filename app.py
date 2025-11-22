@@ -18,7 +18,7 @@ def home():
 locations = ['V5', 'V3', 'V4', 'Pocket_D', 'Pocket_C', 'Block1', 'Block2','IRC','Block_K', 'Block_I']
 
 # Add edges with approximate distances (in km)
-# Weight(time (min)) = Walking Distance / Average Student Speed (4 km/h)
+# Walking Distance = Average Student Speed (4 km/h) x time (min)
 edges = [
     ('V5', 'Block_I', 15),
     ('V5', 'V3', 7.5),
@@ -55,33 +55,10 @@ def load_graph_data(filename="full_connected_graph.json"):
     
     # Ensure all required keys are present
     graph = data.get('graph', {})
-    # for place in graph:
-    #     print(place)
-    #     for distance in graph[place]:
-    #         print(distance[1]/4)
-
     heuristic = data.get('heuristic', {})
     
     print(f"Data loaded successfully from {filename}.")
     return graph, heuristic
-
-
-# def visualize_graph():
-#     G = nx.Graph()
-#     G.add_nodes_from(locations)
-#     G.add_weighted_edges_from(edges)
-
-#     print("Graph created with nodes:", list(G.nodes()))
-#     print("Edges:", list(G.edges(data=True)))
-
-#     # Visualize the graph
-#     pos = nx.spring_layout(G)  # positions for all nodes
-#     nx.draw(G, pos, with_labels=True, node_color='lightblue', node_size=2000, font_size=10, font_weight='bold')
-#     labels = nx.get_edge_attributes(G, 'weight')
-#     nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
-#     plt.title("Graph of Locations in Perak")
-#     plt.show()
-
 
 
 def a_star(start, goal):
@@ -101,16 +78,18 @@ def a_star(start, goal):
         node = path[-1]
 
         if node == goal:
-            # distance = (cost+buffer_time)*60  # convert buffer time to seconds
-            # added_time = timedelta(minutes=cost+buffer_time) 
-            # print(added_time)
-            # estimated_time = time_now + added_time
-            # print(f"Total time : {cost} minutes")
-            # print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
-            # print(f"Distance: {distance} meters")
-            # print(f"path: {path}")
-            # return path,estimated_time,added_time,distance
-            return path,cost
+            
+            # Walking Distance = Average Student Speed (4 km/h) x time (min)
+            time = (cost/66.67) + buffer_time  # in minutes
+            print("time: " + str(time))
+            added_time = timedelta(minutes=time)
+            print(added_time)
+            estimated_time = time_now + added_time
+            print(f"Total time : {cost} minutes")
+            print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
+            print(f"Distance: {cost} meters")
+            print(f"path: {path}")
+            return path,estimated_time,added_time,cost
 
         if node not in visited:
             visited.add(node)
@@ -144,7 +123,7 @@ def get_route():
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    path,distance = a_star(start, dest)
+    path,estimated_time,added_time,distance = a_star(start, dest)
     
     # Display path
     if path:
@@ -153,8 +132,7 @@ def get_route():
     else:
         print(f"No path found from {start} to {dest}.")
         
-    # return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
-    return jsonify({"start": start, "dest": dest, "estimated_time": "0", "path": path, "added_time": "0", "distance": distance})
+    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
     
 
 @app.route("/<start>/<dest>", methods=['GET'])
@@ -163,7 +141,7 @@ def get_route_two(start, dest):
     start = request.args.get('start')
     dest = request.args.get('dest')
     
-    path,distance = a_star(graph, heuristic, start, dest)
+    path,estimated_time,added_time,distance  = a_star(start, dest)
     
     # Display path
     if path:
@@ -172,8 +150,7 @@ def get_route_two(start, dest):
     else:
         print(f"No path found from {start} to {dest}.")
         
-    # return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
-    return jsonify({"start": start, "dest": dest, "path": path,"distance": distance})
+    return jsonify({"start": start, "dest": dest, "estimated_time": estimated_time.strftime('%H:%M'), "path": path, "added_time": str(added_time), "distance": distance})
     
     
 if __name__ == '__main__':
