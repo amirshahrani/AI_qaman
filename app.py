@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 # Define your target timezone
-# kl_timezone = ZoneInfo("Asia/Kuala_Lumpur")
+kl_timezone = ZoneInfo("Asia/Kuala_Lumpur")
 
 app = Flask(__name__)
 
@@ -69,7 +69,7 @@ def a_star(start, goal):
     pq = [(HEURISTIC[start], 0, [start])]
     visited = set()
 
-    time_now = datetime.now()
+    time_now = datetime.now(kl_timezone)
     print(f"Current Time = {time_now.strftime('%H:%M')} ")
        
 
@@ -82,14 +82,14 @@ def a_star(start, goal):
             # Walking Distance = Average Student Speed (4 km/h) x time (min)
             time = (cost/66.67) + buffer_time  # in minutes
             print("time: " + str(time))
-            added_time = timedelta(minutes=time)
+            added_time = timedelta(seconds=int(time * 60))
             print(added_time)
             estimated_time = time_now + added_time
             print(f"Total time : {cost} minutes")
-            print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime("%H:%M")} ")
+            print(f"Estimated Time Arrival (ETA)= {estimated_time.strftime('%H:%M')} ")
             print(f"Distance: {cost} meters")
             print(f"path: {path}")
-            return path,estimated_time,added_time,cost
+            return path, estimated_time, added_time, cost
 
         if node not in visited:
             visited.add(node)
