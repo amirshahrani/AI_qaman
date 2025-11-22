@@ -49,7 +49,7 @@ heuristic = {
 
 buffer_time = 5  # in minutes 
 
-def load_graph_data(filename="data.json"):
+def load_graph_data(filename="data_final.json"):
     with open(filename, 'r') as f:
         data = json.load(f)
     
@@ -58,7 +58,7 @@ def load_graph_data(filename="data.json"):
     heuristic = data.get('heuristic', {})
     
     print(f"Data loaded successfully from {filename}.")
-    return graph, heuristic, buffer_time
+    return graph, heuristic
 
 
 # def visualize_graph():

@@ -1,0 +1,1845 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Maybank",
+        "name": "Maybank",
+        "type": "facility",
+        "description": "Bank"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97064967921267,
+          4.386279213828729
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Cafe_Syg",
+        "name": "Cafe Sayang",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97045234164341,
+          4.3862809717178095
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Postal_Hub",
+        "name": "Postal Hub",
+        "type": "facility",
+        "description": "UTP Campus Postal Hub"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97075,
+          4.386333
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_K",
+        "name": "Block K",
+        "type": "academic",
+        "description": "Academic Block K"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97044,
+          4.385131
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V2A",
+        "name": "Village 2A",
+        "type": "residential",
+        "description": "Residential College Village 2A "
+      },
+      "geometry": {
+        "coordinates": [
+          100.968398,
+          4.387534
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_I2",
+        "name": "Block I-2",
+        "type": "academic",
+        "description": "Academic Block I-2 (Research/Postgrad)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97026796060894,
+          4.383670803205906
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_J",
+        "name": "Block J",
+        "type": "academic",
+        "description": "Academic Block J"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97033705692986,
+          4.384370963572514
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_L",
+        "name": "Block L",
+        "type": "academic",
+        "description": "Academic Block L (Petroleum Engineering)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97100147439131,
+          4.385876621724128
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Cetal",
+        "name": "CETaL",
+        "type": "academic",
+        "description": "Centre for Excellence in Teaching and Learning"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97121585215217,
+          4.3836463780183825
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_11",
+        "name": "Block 11",
+        "type": "academic",
+        "description": "Academic Block 11"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96450050817036,
+          4.380553159518557
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_B",
+        "name": "Block B",
+        "type": "academic",
+        "description": "Academic Block B"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97385701032748,
+          4.38726719429551
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Masjid_An_Nur",
+        "name": "Masjid An-Nur",
+        "type": "facility",
+        "description": "UTP Mosque"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97376,
+          4.385647
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Main_Hall",
+        "name": "Main Hall",
+        "type": "facility",
+        "description": "Main Hall UTP (Dewan Serbaguna)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.972011,
+          4.386397
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Sports_Complex",
+        "name": "Sports Complex",
+        "type": "facility",
+        "description": "Sports Complex & Gymnasium"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97445504338302,
+          4.387369543514294
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Pocket_D",
+        "name": "Pocket D",
+        "type": "academic",
+        "description": "Lecture Halls Pocket D"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96674437658505,
+          4.384113604333647
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Pusat_Kayak",
+        "name": "Pusat Kayak",
+        "type": "facility",
+        "description": "UTP Kayak Centre"
+      },
+      "geometry": {
+        "coordinates": [
+          100.977161,
+          4.382452
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Chancellor_Hall",
+        "name": "Chancellor Hall",
+        "type": "facility",
+        "description": "Chancellor Hall (Dewan Tunku Canselor)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9696761227488,
+          4.381681465269601
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V1B",
+        "name": "Village 1B",
+        "type": "residential",
+        "description": "Residential College Village 1B"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97057,
+          4.387184
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "IRC",
+        "name": "Information Resource Centre (IRC)",
+        "type": "academic",
+        "description": "University Library"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96956479219578,
+          4.382451395764564
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "R_D_Building",
+        "name": "R&D Building",
+        "type": "academic",
+        "description": "Research & Development Building"
+      },
+      "geometry": {
+        "coordinates": [
+          100.961068,
+          4.379052
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V1A",
+        "name": "Village 1A",
+        "type": "residential",
+        "description": "Residential College Village 1A"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97083076202648,
+          4.387479729292082
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V1_Court",
+        "name": "V1 Court",
+        "type": "facility",
+        "description": "Takraw & Volleyball Court"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97023577937529,
+          4.386977947759846
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V1C",
+        "name": "Village 1C",
+        "type": "residential",
+        "description": "Residential College Village 1C"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9699110180116,
+          4.38721029984147
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Cafe_V1",
+        "name": "Cafe Warisan Miss Global",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97036717137661,
+          4.387828257151739
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V1D",
+        "name": "Village 1D",
+        "type": "residential",
+        "description": "Residential College Village 1D"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96930116079363,
+          4.387190525197909
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V1C_Court",
+        "name": "V1C & V1D Court",
+        "type": "facility",
+        "description": "Futsal Court"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96962344306343,
+          4.387380856110511
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V2B",
+        "name": "Village 2B",
+        "type": "residential",
+        "description": "Residential College Village 2B"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96821283904876,
+          4.387235018139577
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V2_Cafe",
+        "name": "V2 Cafe",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96782114213602,
+          4.387741743156795
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V2C",
+        "name": "Village 2C",
+        "type": "residential",
+        "description": "Residential College Village 2C"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96737242605434,
+          4.388097686376383
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V2E",
+        "name": "Village 2E",
+        "type": "residential",
+        "description": "Residential College Village 2E"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96714434937041,
+          4.38761320806222
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V4C",
+        "name": "Village 4C",
+        "type": "residential",
+        "description": "Residential College Village 4C"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96638078775067,
+          4.388006228783041
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V4B",
+        "name": "Village 4B",
+        "type": "residential",
+        "description": "Residential College Village 4B"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96600148631063,
+          4.38826577063962
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V4D",
+        "name": "Village 4D",
+        "type": "residential",
+        "description": "Residential College Village 4D"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96594446713897,
+          4.387862862766426
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V4A",
+        "name": "Village 4A",
+        "type": "residential",
+        "description": "Residential College Village 4A"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96498505761463,
+          4.388357228224422
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V4E",
+        "name": "Village 4E",
+        "type": "residential",
+        "description": "Residential College Village 4E"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96494787119912,
+          4.387937017605665
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Pos_Laju",
+        "name": "Pos Laju",
+        "type": "facility",
+        "description": "Pos Laju UTP"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96546104373579,
+          4.388374531009646
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V4_Mart",
+        "name": "V4 Mart",
+        "type": "store",
+        "description": "V4 Mart"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96543873188568,
+          4.388164425734004
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Dobi_V4",
+        "name": "Dobi V4",
+        "type": "dobi",
+        "description": "Dobi V4"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96545856464184,
+          4.388297904386164
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Cafe_V4",
+        "name": "Cafe V4",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96566185038017,
+          4.388199031312908
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5A",
+        "name": "Village 5A",
+        "type": "residential",
+        "description": "Residential College Village 5A"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96390169280488,
+          4.388147122749203
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5B",
+        "name": "Village 5B",
+        "type": "residential",
+        "description": "Residential College Village 5B"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96368105340434,
+          4.3876626444685485
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5C",
+        "name": "Village 5C",
+        "type": "residential",
+        "description": "Residential College Village 5C"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9642140586958,
+          4.387571186797231
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5D",
+        "name": "Village 5D",
+        "type": "residential",
+        "description": "Residential College Village 5D"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96442973990696,
+          4.38718063770213
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V3E",
+        "name": "Village 3E",
+        "type": "residential",
+        "description": "Residential College Village 3E"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96507430435094,
+          4.387202884115055
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V3A",
+        "name": "Village 3A",
+        "type": "residential",
+        "description": "Residential College Village 3A"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96521065454158,
+          4.386809862994738
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V3D",
+        "name": "Village 3D",
+        "type": "residential",
+        "description": "Residential College Village 3D"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96612296127307,
+          4.387351193917212
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V3C",
+        "name": "Village 3C",
+        "type": "residential",
+        "description": "Residential College Village 3C"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96654192822399,
+          4.387146032015224
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V3B",
+        "name": "Village 3B",
+        "type": "residential",
+        "description": "Residential College Village 3B"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9661378358399,
+          4.386948285550545
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V3_Dobi",
+        "name": "V3 Dobi",
+        "type": "facility",
+        "description": "Dobi"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96552302043398,
+          4.387032327805343
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V3_Mart",
+        "name": "Speedway Mart",
+        "type": "store",
+        "description": "Mart"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9655304577173,
+          4.386943341889051
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5F",
+        "name": "Village 5F",
+        "type": "residential",
+        "description": "Residential College Village 5F"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96472663415142,
+          4.386564768236738
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5E",
+        "name": "Village 5E",
+        "type": "residential",
+        "description": "Residential College Village 5E"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96416387972778,
+          4.386693303510285
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5_Court",
+        "name": "V5 Court",
+        "type": "facility",
+        "description": "Futsal & Basketball Court"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96330322735884,
+          4.38710712037232
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Warung_Cha_V5",
+        "name": "Warung Cha",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96362550996986,
+          4.38615546426729
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Shawarma",
+        "name": "Shawarma Gerbang Malam",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96375938106661,
+          4.386397703936424
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Dobi_V5",
+        "name": "Dobi V5",
+        "type": "dobi",
+        "description": "Dobi"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96360815630914,
+          4.3859700767117715
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5_Mart",
+        "name": "V5 Mart",
+        "type": "store",
+        "description": "V5 Mart"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96368748732954,
+          4.385888506173146
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "One_Island",
+        "name": "One Island Cafe",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96388829397392,
+          4.386046703574053
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5G",
+        "name": "Village 5G",
+        "type": "residential",
+        "description": "Residential College Village 5G"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96336520505434,
+          4.385475835999586
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5K",
+        "name": "Village 5K",
+        "type": "residential",
+        "description": "Residential College Village 5K"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9630974628609,
+          4.385016074360834
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5H",
+        "name": "Village 5H",
+        "type": "residential",
+        "description": "Residential College Village 5H"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96366021728448,
+          4.384917200853181
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V5J",
+        "name": "Village 5J",
+        "type": "residential",
+        "description": "Residential College Village 5J"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96339495418647,
+          4.3845488969218
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Chancellor_Park",
+        "name": "Chancellor Park",
+        "type": "park",
+        "description": "Park"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96638965306795,
+          4.381422733782728
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PMMD",
+        "name": "PMMD",
+        "type": "facility",
+        "description": "PMMD"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96782387247208,
+          4.388761882528925
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Nadi_UTP",
+        "name": "Nadi@UTP",
+        "type": "facility",
+        "description": "UTP Student Centre"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96598296321469,
+          4.389215269020426
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Computer",
+        "name": "Computer Store",
+        "type": "store",
+        "description": "Repair & Service"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96582492521304,
+          4.389627009983087
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Kenangan",
+        "name": "Kenangan Coffee",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96553552667336,
+          4.389524815317316
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V6",
+        "name": "Village 6",
+        "type": "residential",
+        "description": "Residential College Village 6"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96445229473363,
+          4.389904798148223
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Nasi_Ayam",
+        "name": "Signature Nasi Ayam",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96582018473168,
+          4.389430044905211
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Komunal",
+        "name": "Komunal",
+        "type": "cafe",
+        "description": "Komunal Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96597292286498,
+          4.389450083069974
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_N",
+        "name": "Block N",
+        "type": "facility",
+        "description": "Facility Block N"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97004646260899,
+          4.385708027511171
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_N4",
+        "name": "Block N-4",
+        "type": "facility",
+        "description": "Facility Block N-4 "
+      },
+      "geometry": {
+        "coordinates": [
+          100.96971486011432,
+          4.385910414046947
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_N2",
+        "name": "Block N-2",
+        "type": "facility",
+        "description": "Facility Block N-2"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96983142341486,
+          4.385140944155296
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DIGIT",
+        "name": "DIGIT Office",
+        "type": "facility",
+        "description": "DIGIT"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97026552109077,
+          4.384824339334614
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_J2",
+        "name": "Block J-2",
+        "type": "academic",
+        "description": "Postgraduate Hub"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96987764710673,
+          4.384285309218114
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Gentari",
+        "name": "Gentari",
+        "type": "facility",
+        "description": "EV Charger"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97027757965088,
+          4.3831351090905315
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "He_And_She",
+        "name": "He & She ",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97000923201193,
+          4.382436712606236
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_F",
+        "name": "Block F",
+        "type": "facility",
+        "description": "REX"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97167083043217,
+          4.38523808354185
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Annur_Gallery",
+        "name": "An-Nur Gallery",
+        "type": "facility",
+        "description": "NIC Office"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9730496538757,
+          4.386454412281736
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_A",
+        "name": "Block A",
+        "type": "academic",
+        "description": "Academic Block A"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9751540405232,
+          4.386903738416407
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Cafe_V7",
+        "name": "Harraz Cafe",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97517861862599,
+          4.382986012349306
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V7_Tembungo",
+        "name": "Village 7 Tembungo",
+        "type": "residential",
+        "description": "Residential College Village 7 Tembungo"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97473443092593,
+          4.382794613201355
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V7_Duyong",
+        "name": "Village 7 Duyong",
+        "type": "residential",
+        "description": "Residential College Village 7 Duyong"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97473219882733,
+          4.382458551789625
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V7_Ethana",
+        "name": "Village 7 Ethana",
+        "type": "residential",
+        "description": "Residential College Village 7 Ethana "
+      },
+      "geometry": {
+        "coordinates": [
+          100.97481925068843,
+          4.382187031862074
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V7_Metana",
+        "name": "Village 7 Metana",
+        "type": "residential",
+        "description": "Residential College Village 7 Metana"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9748125535479,
+          4.381862098220296
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V7_Propana",
+        "name": "Village 7 Propana",
+        "type": "residential",
+        "description": "Residential College Village 7 Propana"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97428131409464,
+          4.3815861269022065
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V7_Ruby",
+        "name": "Village 7 Ruby",
+        "type": "residential",
+        "description": "Residential College Village 7 Ruby"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97333059629142,
+          4.3826572434618924
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Dobi_V7",
+        "name": "Dobi V7",
+        "type": "dobi",
+        "description": "Dobi"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97454957539719,
+          4.382630882267151
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Warung_Cha",
+        "name": "Warung Cha",
+        "type": "cafe",
+        "description": "Cafe"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96673322422299,
+          4.383970237376417
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_O",
+        "name": "Block O",
+        "type": "academic",
+        "description": "Medical Laboratory"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96827652650228,
+          4.384360016053819
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Guest_Apartment",
+        "name": "Guest Apartment",
+        "type": "residential",
+        "description": "Guest Residential"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96792580639465,
+          4.385508118899466
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "UTP_Field",
+        "name": "UTP Field",
+        "type": "facility",
+        "description": "Field"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9774809005927,
+          4.3870325821137754
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Dobi_V1",
+        "name": "Dobi V1",
+        "type": "facility",
+        "description": "Dobi V1"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97050091329334,
+          4.38781832078152
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V2_Dobi",
+        "name": "V2 Dobi",
+        "type": "facility",
+        "description": "Dobi V2"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96724849969996,
+          4.388007262730525
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "V2D",
+        "name": "Village 2D",
+        "type": "residential",
+        "description": "Residential College Village 2D"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96719995815221,
+          4.387913701178078
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "My_News",
+        "name": "MyNews",
+        "type": "store",
+        "description": "Store"
+      },
+      "geometry": {
+        "coordinates": [
+          100.97057233831748,
+          4.386271781863641
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_17",
+        "name": "Block 17",
+        "type": "academic",
+        "description": "Academic Block 17 (Mechanical Engineering)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.965690822883,
+          4.382942836888639
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_12",
+        "name": "Block 12",
+        "type": "academic",
+        "description": "Academic Block 12"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96457014567451,
+          4.381026579743164
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_13",
+        "name": "Block 13",
+        "type": "academic",
+        "description": "Academic Block 13 (Civil Engineering)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96449558439036,
+          4.3815100242764355
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_15",
+        "name": "Block 15",
+        "type": "academic",
+        "description": "Academic Block 15 (Mechanical Engineering)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96481140026609,
+          4.38268458600925
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_16",
+        "name": "Block 16",
+        "type": "academic",
+        "description": "Academic Block 16 (Mechanical Engineering)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96527979219458,
+          4.3827157220008
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_18",
+        "name": "Block 18",
+        "type": "academic",
+        "description": "Academic Block 18"
+      },
+      "geometry": {
+        "coordinates": [
+          100.966,
+          4.3832
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_19",
+        "name": "Block 19",
+        "type": "academic",
+        "description": "Academic Block 19 (Science & Math)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96628,
+          4.383389
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Oval_Park",
+        "name": "Oval Park",
+        "type": "landmark",
+        "description": "Oval Park"
+      },
+      "geometry": {
+        "coordinates": [
+          100.976765,
+          4.38422
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_1",
+        "name": "Block 1",
+        "type": "academic",
+        "description": "Academic Block 1 (Chemical Engineering/CIS)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.968634,
+          4.380976
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_2",
+        "name": "Block 2",
+        "type": "academic",
+        "description": "Academic Block 2"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9684,
+          4.3807
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_3",
+        "name": "Block 3",
+        "type": "academic",
+        "description": "Academic Block 3"
+      },
+      "geometry": {
+        "coordinates": [
+          100.9682,
+          4.3805
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_4",
+        "name": "Block 4",
+        "type": "academic",
+        "description": "Academic Block 4"
+      },
+      "geometry": {
+        "coordinates": [
+          100.968,
+          4.3802
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_5",
+        "name": "Block 5",
+        "type": "academic",
+        "description": "Academic Block 5"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96796,
+          4.379974
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_14",
+        "name": "Block 14",
+        "type": "academic",
+        "description": "Academic Block 14 (Civil Engineering)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96432435423411,
+          4.381901256861015
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_20",
+        "name": "Block 20",
+        "type": "academic",
+        "description": "Academic Block 20 (Common Facilities)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.967441,
+          4.383323
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_21",
+        "name": "Block 21",
+        "type": "academic",
+        "description": "Academic Block 21"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96769844629675,
+          4.382971069511815
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_22",
+        "name": "Block 22",
+        "type": "academic",
+        "description": "Academic Block 22"
+      },
+      "geometry": {
+        "coordinates": [
+          100.968,
+          4.3827
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Block_23",
+        "name": "Block 23",
+        "type": "academic",
+        "description": "Academic Block 23 (Geosciences/Petroleum)"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96843082288301,
+          4.382415232628093
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Pocket_C",
+        "name": "Pocket C",
+        "type": "academic",
+        "description": "Lecture Halls Pocket C"
+      },
+      "geometry": {
+        "coordinates": [
+          100.96405053835957,
+          4.382909419840485
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
